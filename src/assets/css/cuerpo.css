@@ -1,0 +1,16 @@
+.cuerpo{
+    background-color: var(--Very-pale-orange);
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+.texto{
+    text-align: center;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}

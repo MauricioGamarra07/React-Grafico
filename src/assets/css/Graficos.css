@@ -1,0 +1,54 @@
+.graficos{
+    height: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.fila{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.monto{
+    background-color: var(--Dark-brown);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.grafico1, .grafico2, .grafico3, .grafico4, .grafico5, .grafico6, .grafico7{
+    width: 40px;
+    background-color: var(--Soft-red);
+    opacity: 1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.grafico1{
+    height: 40px;
+}
+.grafico2{
+    height: 70px;
+}
+.grafico3{
+    background-color: var(--Cyan);
+    height: 120px;
+}
+.grafico4{
+    height: 65px;
+}
+.grafico5{
+    height: 50px;
+}
+.grafico6{
+    height: 80px;
+}
+.grafico7{
+    height: 55px;
+}
+.grafico1:hover, .grafico2:hover, .grafico3:hover, .grafico4:hover, .grafico5:hover, .grafico6:hover, .grafico7:hover{
+    opacity: .7;
+}
+h5{
+    text-align: center;
+}
