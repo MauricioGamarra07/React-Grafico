@@ -1,3 +1,6 @@
+h1,h4{
+    color: var(--Dark-brown);
+}
 .cuerpo{
     background-color: var(--Very-pale-orange);
     width: 400px;
@@ -13,4 +16,50 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
+.final h4{
+    text-align: end;
+}
+.final h5{
+    color: var(--Medium-brown);
+}
+
+@media (max-width: 375px){
+    .cuerpo{
+        width: 320px;
+        height: 65vh;
+        padding: 20px 5px;
+    }
+
+    .graficos{
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .grafico1, .grafico2, .grafico3, .grafico4, .grafico5, .grafico6, .grafico7{
+        width: 36px;
+    }
+
+    .grafico1{
+        height: 80px;
+    }
+    .grafico2{
+        height: 110px;
+    }
+    .grafico3{
+        background-color: var(--Cyan);
+        height: 160px;
+    }
+    .grafico4{
+        height: 105px;
+    }
+    .grafico5{
+        height: 90px;
+    }
+    .grafico6{
+        height: 135px;
+    }
+    .grafico7{
+        height: 95px;
+    }
 }

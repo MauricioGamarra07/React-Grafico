@@ -9,3 +9,9 @@
     padding: 20px;
     margin-bottom: 20px;
 }
+
+@media (max-width: 375px){
+    .cont-coral{
+        width: 320px;
+    }
+}
